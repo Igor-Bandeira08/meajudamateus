@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital@0;1&family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Raleway:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+
+
+body {
+  background-color: #06094e;
+
+}
+
+header {
+  height: auto;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 1px 5%;
+  color: #ffffff;
+  display: flex;
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Raleway' ;
+  text-align: left;
+}
+
+
+.dentro {
+  font-size: 30px;
+  display: grid;
+text-align: left;
+align-items: center;
+font-family: 'Raleway';
+color: #06094e;
+}
+
+
+.lnome {
+
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+    
+   
+  }
+
+#logo {
+  height: 100px;
+  width: 100px;
+  align-items: center;
+}
+
+#head nav{
+  justify-content: space-between;
+  align-items: center;
+}
+
+#head ul {
+  
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+align-items: center;
+  
+}
+
+#head a {
+  
+  
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(79, 79, 79);
+ 
+  font-family: 'Roboto Condensed';
+  font-size: 24px;
+  text-decoration: none;
+
+}
+
+#head a:hover {
+  color: rgb(119, 119, 119);
+  cursor: pointer;
+}
+#head img{
+  height: 50px;
+  width: 50px;
+}
+
+
+
+
+
+
+
+h2 {
+  font-size: 60px;
+  font-family: 'Montserrat', regular;
+  text-align: center;
+  color: #ffffff;
+}
+
+main {
+  padding: 2rem 5%;
+  justify-content: center;
+  align-items: center;
+  display: flexbox;
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.imagem {
+ padding: 0 30px;
+}
+
+.imagem img {
+  width: 75px;
+  margin: 5px;
+  border-radius: 50px;
+}
+
+#banner {
+  padding: 2rem 5%;
+  position: relative;
+  height: 350px;
+  background-image: url(img/banneravante.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+h4 {
+  font-size: 40px;
+  font-family: 'Montserrat', regular;
+  text-align: center;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+
+main p {
+  font-size: 22px;
+  color: #ffffff;
+  font-family: 'Lato';
+  padding: 0% 1rem;
+}
+
+#pepe img {
+  height: 353px;
+  width: 242px;
+  float: right;
+  justify-content: right;
+  border-radius: 15px;
+}
+
+.horarios p {
+  font-size: 32px;
+ 
+}
+
+.horarios img{
+  height: 600px;
+  float: right;
+  padding: 2rem 5%;
+  
+}
+
+.horarios2 img{
+  float: left;
+  height: 600px;
+  padding-top: -5%;
+  padding-bottom: 2rem;
+  padding-left: 1%;
+  padding-right: 2%;
+
+}
+
+.horarios2 p {
+  font-size: 32px;
+ padding: 10rem 2%;
+}
+
+.Integrantes {
+  padding: 15rem 5%;
+  padding-bottom: 2rem;
+}
+
+footer {
+  height: auto;
+  width: 90%;
+  background-color: #16479C;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5%;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 1rem 5%;
+  display: flex;
+  gap: 1rem;
+}
+footer li{
+  padding: 0px 5%;
+}
+footer img {
+  width: 50px;
+  height: 50px;
+}
